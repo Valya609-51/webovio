@@ -1,0 +1,161 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(/png/fon.png.jpg);
+  background-repeat:no-repeat; 
+  background-size: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.header {
+  display: flex;
+  width: 1300px;
+  height: 43;
+  margin: 24px 164px 0px 170px; 
+}
+
+.header__icon {
+  display: flex;
+  width: 55px;
+  height: 35px;
+  margin: 5px 5px 0px 0px; 
+}
+
+.header__text {
+  display: flex;
+  width: 190px;
+  height: 33px;
+  margin: 1px 840px 4px 5px ;
+}
+ 
+.header__menu {
+  display: flex;
+  width: 40;
+  height: 40;
+  margin: 0px 0px 0px 245px;
+}
+
+.hero{
+   overflow: hidden;
+    position: relative;
+}
+
+.hero__content {
+  display: flexbox;
+  width: 616px;
+  height: 412px;
+  margin: 145px 659px 211px 190px;
+  color: #FFFFFF;
+}
+
+.hero__subtitle {
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 100px;
+  height: 21px;
+  margin: 0px 516px 22px 0px;
+}
+
+.hero__title {
+  color: #FFFFFF;
+  font-size: 66px;
+  width: 616px;
+  height: 260px;
+  margin: 22px 0px 24px 0px;
+}
+
+.hero__description {
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 581px;
+  height: 55px;
+  margin: 55px 35px 45px 0px;
+  
+}
+.hero__btn {
+  width: 114px;
+  height: 24px;
+  margin: 45px 467px 0px 0px;
+  font-size: 16px;
+}
+
+.services {
+  color: #4D533C;
+  display: flex;
+  width: 1110px;
+  height: 800px; 
+  margin: 0px 164px 0px 166px;
+}
+
+.services__inner {
+  display: flexbox;
+  width: 1110px;
+  height: 461px;
+  margin: 150px 0px 0px 0px;
+  
+}
+
+.services__title {
+  display:flex;
+  width: 607px;
+  height: 92px;
+  margin: 150px 503px 60px 25px;
+  font-size: 36px;
+ 
+}
+.services__grid {
+  display: grid;
+  color: #4D533C;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  width: 1110;
+  height: 309;
+  margin: 100px 0px 0px 30px;
+  font-size: 24px;
+  
+}
+
+.service-card__title {
+  
+  width: 183px;
+  height: 68px;
+  margin: 27px 42px 20px 60px;
+  color: #21384299;
+  font-size:  24px;
+}
+
+.service-card__desc {
+  font-size: 14px;
+  color: #21384299;
+  width: 194px;
+  height: 78px;
+  margin: 20px 31px 56px 0px;
+}
+
+.service-card__link {
+  width: 102px;
+  height: 24px;
+  margin: 56px 123px 36px 0px;
+}
+
+.toggle-btn {
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.like-state {
+    background-color: #4CAF50;
+}
+
+.dislike-state {
+    background-color: #f44336;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
